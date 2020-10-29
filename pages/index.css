@@ -46,10 +46,3 @@
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 @import url("../blocks/cover/__overlay/cover__overlay.css");
-
-@media screen and (min-width: 1280px) {
-  .page {
-    max-width: 1600px;
-    margin: 0 auto;
-  }
-}
