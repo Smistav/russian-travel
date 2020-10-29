@@ -1,0 +1,13 @@
+.header__radio {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  float: right;
+  padding-top: 18px;
+  padding-left: 18px;
+  margin: 0;
+  /* display: block; */
+}
