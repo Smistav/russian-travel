@@ -10,16 +10,17 @@
   vertical-align: middle;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
+    padding: 0 16px;
   }
 }

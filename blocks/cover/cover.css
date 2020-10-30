@@ -1,7 +1,50 @@
 .cover {
-  width: 1184px;
-  height: 740px;
+  /* height: 740px; */
   background-image: url("../../images/dmitr-cover.jpg");
-
+  background-size: cover;
+  background-position: center;
   margin-top: 92px;
+  position: relative;
+  /* padding: calc(16vw / 1280vw) calc(20vw / 1280vw); */
+  max-width: 1184px;
+  /* max-height: 740px; */
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  /* padding: 1vw 1vw; */
+}
+
+.cover:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+
+.cover:hover:before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    min-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-width: 320px;
+  }
 }

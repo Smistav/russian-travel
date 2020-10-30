@@ -13,16 +13,9 @@
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place__paragraph {
-    font-size: 16px;
-    margin: 0;
-    margin-bottom: 25px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .place__paragraph {
+    padding: 0 16px;
     font-size: 16px;
     margin: 0;
     margin-bottom: 25px;

@@ -8,6 +8,9 @@
   float: right;
   padding-top: 18px;
   padding-left: 18px;
-  margin: 0;
+  margin-right: 18px;
   /* display: block; */
+}
+.header__radio:last-child {
+  margin-right: 0;
 }

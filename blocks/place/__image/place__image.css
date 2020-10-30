@@ -7,8 +7,14 @@
   /* padding-bottom: 100%; */
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place__image {
     height: 340px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    height: 320px;
   }
 }
