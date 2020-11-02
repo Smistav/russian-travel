@@ -1,4 +1,4 @@
-.header__radio_null {
+.header__lang-link_null {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -6,6 +6,6 @@
   clip: rect(0 0 0 0);
 }
 
-.header__radio_null:checked + .header__radio_pseudo {
+.header__lang-link_null:checked + .header__lang-link_pseudo {
   border-bottom: 3px solid #fff;
 }

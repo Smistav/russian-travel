@@ -1,4 +1,4 @@
-.header__radio {
+.header__lang-link {
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
@@ -11,6 +11,6 @@
   margin-right: 18px;
   /* display: block; */
 }
-.header__radio:last-child {
+.header__lang-link:last-child {
   margin-right: 0;
 }
