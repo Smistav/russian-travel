@@ -5,3 +5,11 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__column-link {
+    flex-direction: column;
+    float: none;
+    margin-bottom: 16px;
+  }
+}

@@ -12,7 +12,7 @@
   margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .place {
     grid-template-columns: 440px 456px;
     grid-template-rows: 1fr 440px;
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: 340px 352px;
     grid-template-rows: 1fr min-content;
@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place {
     grid-template-columns: 320px;
     grid-template-rows: 35px 320px min-content;

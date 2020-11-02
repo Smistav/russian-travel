@@ -5,3 +5,23 @@
   padding-bottom: 24px;
   position: relative;
 }
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    min-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    margin: 64px auto 0;
+    height: auto;
+    min-width: 320px;
+  }
+}
