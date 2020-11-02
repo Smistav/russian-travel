@@ -13,8 +13,6 @@
   .footer__copyright {
     flex-direction: column;
     float: none;
-
-    font-size: 14px;
     line-height: 14px;
   }
 }
