@@ -1,6 +1,7 @@
 @import url("../vendor/normalize.css");
 @import url("../blocks/page/page.css");
 @import url("../fonts/inter.css"); /*Добавили семейство шрифтов Inter*/
+@import url("../blocks/hover-link/hover-link.css");
 
 /* Блок Header */
 
@@ -46,3 +47,10 @@
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 @import url("../blocks/cover/__overlay/cover__overlay.css");
+
+/* Блок Footer */
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__column-link/footer__column-link.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+@import url("../blocks/footer/__link/footer__link.css");

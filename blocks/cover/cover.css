@@ -1,5 +1,6 @@
 .cover {
   /* height: 740px; */
+  display: block;
   background-image: url("../../images/dmitr-cover.jpg");
   background-size: cover;
   background-position: center;
@@ -11,6 +12,7 @@
   margin: 0 auto;
   box-sizing: border-box;
   text-align: center;
+  text-decoration: none;
   /* padding: 1vw 1vw; */
 }
 
