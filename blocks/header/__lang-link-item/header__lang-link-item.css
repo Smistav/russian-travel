@@ -1,4 +1,4 @@
-.header__lang-link_null {
+.header__lang-link-item {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -6,6 +6,6 @@
   clip: rect(0 0 0 0);
 }
 
-.header__lang-link_null:checked + .header__lang-link_pseudo {
+.header__lang-link-item:checked + .header__lang-link-pseudo {
   border-bottom: 3px solid #fff;
 }
