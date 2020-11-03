@@ -19,6 +19,7 @@
   .photo-grid {
     grid-template-columns: repeat(2, 352px);
     grid-template-rows: repeat(6, 264px);
+    margin-top: 88px;
   }
 }
 
@@ -26,5 +27,6 @@
   .photo-grid {
     grid-template-columns: repeat(1, 288px);
     grid-template-rows: repeat(12, 216px);
+    margin-top: 64px;
   }
 }

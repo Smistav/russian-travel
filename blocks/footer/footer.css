@@ -1,20 +1,20 @@
 .footer {
   max-width: 1184px;
-  height: 18px;
   margin: 92px auto 0;
   padding-bottom: 24px;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1279px) {
   .footer {
-    min-width: 1024px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .footer {
-    min-width: 768px;
+    max-width: 720px;
   }
 }
 
@@ -22,6 +22,8 @@
   .footer {
     margin: 64px auto 0;
     height: auto;
-    min-width: 320px;
+    max-width: 320px;
+    flex-direction: column;
+    padding-left: 16px;
   }
 }
